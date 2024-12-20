@@ -80,8 +80,9 @@ if __name__ == "__main__":
 
         ## For Remote server only(DAGShub)
 
-        remote_server_uri="https://dagshub.com/krishnaik06/mlflowexperiments.mlflow"
-        mlflow.set_tracking_uri(remote_server_uri)
+        #remote_server_uri="https://dagshub.com/krishnaik06/mlflowexperiments.mlflow"
+        remote_server_url="https://dagshub.com/Rishabhmannu/mlflowexperiments.mlflow"
+        mlflow.set_tracking_uri(remote_server_url)
 
         tracking_url_type_store = urlparse(mlflow.get_tracking_uri()).scheme
 
